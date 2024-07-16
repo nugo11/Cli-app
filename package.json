@@ -1,0 +1,23 @@
+{
+  "name": "new-folder-(2)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-expense": "node bin/create.js",
+    "search-expense": "node bin/search.js",
+    "delete-expense": "node bin/delete.js"
+  },
+  "bin": {
+    "create-expense": "./bin/create.js",
+    "search-expense": "./bin/search.js",
+    "delete-expense": "./bin/delete.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "express": "^4.19.2"
+  }
+}
